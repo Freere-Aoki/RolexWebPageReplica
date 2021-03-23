@@ -1,0 +1,303 @@
+.con {
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    margin: 0 auto;
+    top: 0;
+    right: 0;
+    left: 0;
+    transition: top 14s;
+    max-width: 2560px;
+    z-index: 996;
+}
+
+.hide {
+    top: -100px;
+}
+
+.home {
+    width: 100%;
+}
+
+.header {
+    text-align: center;
+
+}
+
+.notops {
+    background-color: white;
+}
+
+.tops {
+    background-color: transparent;
+}
+
+.tops:hover {
+    background-color: white;
+}
+
+.header {
+    transition: background-color 0.3s ease-in-out, top 0.5s ease-in-out;
+}
+
+/*选单的三个横条*/
+.rlx-burger {
+    position: relative;
+    width: 20px;
+    height: 16px;
+    transition: width 800ms;
+    transform: translate(0, 0);
+}
+
+.line {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    transform-origin: 10px 0;
+    transition: transform 300ms cubic-bezier(0.13, 0.15, 0.48, 0.99) 400ms, opacity 50ms 400ms, width .1ms 400ms;
+}
+
+.line:nth-child(1) {
+    transform: translate(0, 0);
+}
+
+.line:nth-child(2) {
+    transform: translate(0, 6px);
+}
+
+.line:nth-child(3) {
+    transform: translate(0, 12px);
+}
+
+.line div {
+    height: 2px;
+    transform: translate3d(0, 0, 0);
+    transition: transform 400ms cubic-bezier(0.42, 0, 0.23, 1.01), background-color 600ms, -webkit-transform 400ms cubic-bezier(0.42, 0, 0.23, 1.01);
+
+}
+
+.line div {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.notops .line div {
+    background-color: black;
+}
+
+.tops .line div {
+    background-color: white;
+}
+
+.tops:hover .line div {
+    background-color: black;
+}
+
+.tops .rlx-burger:hover div {
+    background-color: green;
+}
+
+/*选单里选单文字span*/
+.rlx-colled {
+    transition: color 0.3s ease-in-out;
+}
+.notops .rlx-colled{
+    color: black;
+}
+
+.tops .rlx-colled{
+    color: white;
+}
+
+.tops:hover .rlx-colled {
+    color: black;
+}
+
+.tops .rlx-search:hover .colled1{
+    color: #127749;
+}
+.tops .rlx-search:hover .svg1{
+    fill: #127749;
+}
+
+
+
+/*选单块的整体布局*/
+.rlx-openMenu {
+    transform: translate3d(0, 13px, 0);
+}
+
+:link, :visited, .rlx-fake-link {
+    text-decoration: none;
+    color: #818181;
+}
+
+.rlx-openMenu {
+    color: black;
+    font-size: 11px;
+    position: absolute;
+    transition: color .3s ease-out, transform .6s cubic-bezier(0.23, 1, 0.32, 1);
+    /*规定菜单中的文字强行不换行*/
+    white-space: nowrap;
+    left: 0;
+    bottom: 16px;
+    padding: 10px 0 10px 0;
+    margin-left: 2vw;
+}
+
+@media (max-width: 1024px) {
+    .rlx-openMenu {
+        padding: 10px 0 10px 0;
+        margin-left: 40px
+    }
+}
+
+/*横向a标签横向栏*/
+
+ul.rlx-shorts li a {
+    transition: color 0.3s ease-in-out;
+}
+
+.notops ul.rlx-shorts li a {
+    color: black;
+}
+
+.tops ul.rlx-shorts li a {
+    color: white;
+}
+
+.tops:hover ul.rlx-shorts li a {
+    color: black;
+}
+
+.tops ul.rlx-shorts li a:hover {
+    color: green;
+}
+
+/*横向li标签*/
+
+ul.rlx-shorts li {
+    display: inline-block;
+}
+
+ul.rlx-shorts li:nth-child(n+2) {
+    margin-left: 20px;
+}
+
+/*单个导航栏a标签设置css*/
+ul.rlx-shorts {
+    letter-spacing: .03em;
+    bottom: 13px;
+    left: 111px;
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+}
+
+ul.rlx-shorts {
+    position: absolute;
+    font-size: 8pt;
+}
+
+.rlx-logo {
+    padding-top: 20px;
+    vertical-align: middle;
+    width: auto;
+    height: 50px;
+}
+.svg-w {
+    padding-top: 20px;
+    vertical-align: middle;
+    width: auto;
+    height: 50px;
+}
+
+.tops .rlx-logo{
+    display: none;
+    opacity: 0;
+}
+.notops .rlx-logo{
+    display: inline;
+    opacity: 1;
+}
+.tops:hover .rlx-logo{
+    display: inline;
+    opacity: 1;
+}
+
+.tops .svg-w{
+    display: inline;
+    opacity: 1;
+}
+.notops .svg-w{
+    display: none;
+    opacity: 0;
+}
+.tops:hover .svg-w{
+    display: none;
+    opacity: 0;
+}
+
+.rlx-list {
+    right: 0;
+}
+
+.rlx-list {
+    right: 0;
+}
+
+.rlx-list {
+    display: table;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 15px;
+    transition: transform .6s cubic-bezier(0.23, 1, 0.32, 1), -webkit-transform .6s cubic-bezier(0.23, 1, 0.32, 1);
+    will-change: transform;
+}
+
+.rlx-list {
+    padding-top: 20px;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    right: 10px;
+    top: 6px;
+}
+
+.rlx-item {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.rlx-svg{
+    fill: #127749;
+}
+.rlx-svg{
+    transition: all 0.3s ease-in-out;
+}
+.notops .rlx-svg{
+    fill: black;
+}
+
+.tops .rlx-svg{
+    fill: white;
+}
+
+.tops:hover .rlx-svg{
+    fill: black;
+}
+
+.tops .rlx-wishlist:hover .colled2{
+    color: #127749;
+}
+.tops .rlx-wishlist:hover .svg2{
+    fill: #127749;
+}

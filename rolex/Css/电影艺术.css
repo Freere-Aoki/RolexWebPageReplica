@@ -1,0 +1,429 @@
+body{
+    margin: 0;
+}
+.zong{
+    min-width: auto;
+}
+.zong{
+    height: 8300px;
+    background: #fff;
+    box-shadow: 0 0 0 3px rgba(0,0,0,0.05);
+    margin: 0 auto;
+    max-width: 2560px;
+    min-width: 1024px;
+    position: relative;
+    overflow: hidden;
+}
+.juzhong{
+    width: 100%;
+    height: 710px;
+    margin: 0 auto;
+    position: relative;
+}
+.juzhong2{
+    width: 100%;
+    height: 710px;
+    margin: 0 auto;
+    position: relative;
+}
+.video{
+    object-fit: cover;
+    position: relative;
+    top: 80px;
+    width: 1262px;
+    height: 710px;
+}
+#dashi{
+    width: 100%;
+    height: 480px;
+}
+#zhong{
+    width: 1262.67px;
+    height: 480px;
+    position: relative;
+    margin: 0 auto;
+}
+#zi1{
+    position: absolute;
+    left: 30%;
+    top: 25%;
+}
+#zi11{
+    position: absolute;
+    left: 18%;
+    top: 60%;
+}
+.h1{
+    font-size: 50px;
+    font-weight: 400;
+}
+.p1{
+    margin-bottom: 20px;
+    font-weight: 100;
+    line-height: 30px;
+}
+#heng{
+    padding:  80px 0px 80px 0px;
+    width: 1263px;
+    height: 95px;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+}
+#botton{
+    margin-bottom: 80px;
+}
+.ren{
+    width: 100%;
+    background-image: url("../images/人像1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    top: 80px;
+}
+#ziz1{
+    position: relative;
+    top: 55%;
+    left: 20%;
+    opacity: 0;
+}
+.zi2{
+    color: white;
+    font-weight: 100;
+    font-size: 50px;
+    margin: 0px;
+}
+.zi22{
+    color: white;
+    font-size: 50px;
+    margin-top: 5px;
+    position: absolute;
+    top: 50px;
+}
+.a1{
+    display: inline-block;
+    width: 117px;
+    height: 40px;
+    border:1px rgba(255,255,255,0.4) solid;
+    border-radius: 2px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 135px;
+    font-size: 13px;
+    transition: all 0.2s;
+}
+.a1:hover{
+    background-color: white;
+    color: black;
+}
+#ren1{
+    width: 100%;
+    background-image: url("../images/人像2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    top: 80px;
+}
+#ziz2{
+
+    position: relative;
+    top: 60%;
+    left: 62%;
+    opacity: 0;
+}
+#zhong1{
+    width: 1262.67px;
+    height: 1129px;
+    margin: 0 auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    position: relative;
+}
+#zi3{
+    position: absolute;
+    left: 46%;
+    top: 15%;
+    font-size: 15px;
+    font-weight: 100;
+    color: #A47E2C;
+
+}
+.zi33{
+    position: absolute;
+    left: 45%;
+    top: 16%;
+    font-size: 25px;
+    font-weight: 100;
+}
+#xian{
+    position: relative;
+    top: 14%;
+    left: 47%;
+}
+#img1{
+    position: absolute;
+    top: 24%;
+    left: 28%;
+}
+#p1{
+    font-weight: 100;
+    font-size: 15px;
+    color: #818181;
+    position: absolute;
+    top: 83%;
+    left: 30%;
+}
+#a1{
+    display: inline-block;
+    width: 117px;
+    height: 40px;
+    border:1px #818181 solid;
+    border-radius: 2px;
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 88%;
+    left: 45%;
+    font-size: 13px;
+    transition: all 0.2s;
+}
+#a1:hover{
+    background-color: black;
+    color: white;
+}
+#ren2{
+    width: 100%;
+    background-image: url("../images/人像3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+#ziz3{
+    position: relative;
+    top: 55%;
+    left: 15%;
+    opacity: 0;
+}
+#ren3{
+    width: 100%;
+    background-image: url("../images/人像5.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+#ziz4{
+    position: relative;
+    top: 60%;
+    left: 62%;
+    opacity: 0;
+}
+#dianY{
+    width: 680px;
+    height: 250px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+#h2{
+    font-size: 30px;
+    font-weight: 100;
+    color: #A47E2C ;
+    text-align: center;
+}
+
+#h1{
+    font-size:57px;
+    font-weight: 100;
+    text-align: center;
+    margin-top: 5px;
+}
+#p2{
+    width: 800px;
+    font-weight: 100;
+    line-height: 30px;
+    color: #818181;
+}
+#imgZ{
+    width: 1280px;
+    height: 720px;
+    margin: 0 auto;
+    position: relative;
+    top: 100px;
+}
+#hua{
+    width: 100%;
+    height: 460px;
+    margin-top: 80px;
+    position: relative;
+    top: 100px;
+    background-image: url("../images/画.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#hh1{
+    font-weight: 100;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    line-height:390px;
+}
+#aas{
+    display: inline-block;
+    width: 117px;
+    height: 40px;
+    border:1px rgba(255,255,255,0.4) solid;
+    border-radius: 2px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    bottom: 35%;
+    left: 45%;
+    font-size: 13px;
+    transition: all 0.2s;
+}
+#aas:hover{
+    background-color: white;
+    color: black;
+}
+#aa1{
+    position: relative;
+    top: 160px;
+    left: 200px;
+}
+.ul1{
+    list-style-type: none;
+}
+.li1{
+    height: 23px;
+}
+.a2{
+    color: #BDBDBD;
+    text-decoration: none;
+    font-size: 14px;
+}
+.p3{
+    width: 275px;
+    display: inline-block;
+    border-bottom: 1px #333333 solid;
+    position: relative;
+    left: 40px;
+    color: #BDBDBD;
+    font-size: 10px;
+    margin: 0px;
+}
+.a3{
+    color: #BDBDBD;
+    text-decoration: none;
+    font-size: 14px;
+    position: absolute;
+    top: 45px;
+    left: 40px;
+}
+/*劳力士世界*/
+#aa2 {
+    position: relative;
+    top: 160px;
+    left: 200px;
+}
+/*服务*/
+#aa3{
+    position: relative;
+    top: 220px;
+    left: 200px;
+}
+.ul2{
+    list-style-type: none;
+}
+.li2{
+    height: 23px;
+}
+.a4{
+    color: #BDBDBD;
+    text-decoration: none;
+    font-size: 14px;
+}
+/*腕表系列*/
+#aa4{
+    position: relative;
+    top: -235px;
+    left: 500px;
+}
+.ul3{
+    list-style-type: none;
+}
+.li3{
+    height: 23px;
+}
+.a5{
+    color: #BDBDBD;
+    text-decoration: none;
+    font-size: 14px;
+}
+/*社交媒体频道*/
+#aa5{
+    position: relative;
+    top: -630px;
+    left: 800px;
+}
+.ul4{
+    list-style-type: none;
+}
+.li4{
+    height: 23px;
+}
+.a6{
+    color: #BDBDBD;
+    text-decoration: none;
+    font-size: 14px;
+}
+#aa{
+    color: #757575;
+    font-size: 14px;
+}
+/*媒体*/
+#aa6{
+    position: relative;
+    top: -458px;
+    left: 800px;
+}
+.ul5{
+    list-style-type: none;
+}
+.li5{
+    height: 23px;
+    width: 100px;
+    margin: 0px;
+}
+.a7{
+    color: #757575;
+    text-decoration: none;
+    font-size: 14px;
+}
+.ss{
+    width: 1000px;
+    height: 800px;
+    border: 1px red solid;
+    position: absolute;
+    left: 100px;
+}
+#div5{
+    width: 1223px;
+    height: 10%;
+    position: relative;
+    margin: 0 auto;
+    background-color: black;
+}
+#hei{
+    width: 100%;
+    height: 10%;
+    background-color: black;
+    position: relative;
+    top: 100px;
+}

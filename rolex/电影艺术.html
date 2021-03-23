@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>劳力士与电影艺术</title>
+    <link rel="stylesheet" href="Css/头部.css">
+    <link rel="stylesheet" href="Css/电影艺术.css">
+    <link rel="icon" href="images/bitbug_favicon(1).ico" type="img/x-ico">
+    <script src="javaScrpit/jquery-1.8.3.min.js"></script>
+    <script src="javaScrpit/头部.js"></script>
+    <script src="javaScrpit/电影艺术.js"></script>
+
+    <style>
+        .blackhou{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            position:absolute;
+            left: 0;
+            right: 0;
+            top: 50%;
+            margin:auto;
+            border-radius: 50%;
+            opacity: 0.6;
+        }
+        .blackhou img{
+            height: 32%;
+            width:  27%;
+            position:absolute;
+            top: 36%;
+            left: 37%;
+            margin:auto;
+        }
+        .juzhong:hover .video-playernot{
+            opacity: 0.4;
+        }
+        .blackhoux{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            position:absolute;
+            left: 0;
+            right: 0;
+            top: 50%;
+            margin:auto;
+            border-radius: 50%;
+            opacity: 0.6;
+        }
+        .blackhoux img{
+            height: 32%;
+            width:  27%;
+            position:absolute;
+            top: 36%;
+            left: 37%;
+            margin:auto;
+        }
+        .juzhong2:hover .video-playernot{
+            opacity: 0.4;
+        }
+        .video-playernow{
+            transform: scale(2);
+            opacity: 0;
+            transition: all 0.4s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+<div class="zong">
+<div class="xfheader">
+    <div class="home">
+        <div class="con">
+            <div class="header">
+                <!--选单页面-->
+                <a class="rlx-openMenu" title="选单" href="#">
+                    <div class="rlx-burger">
+                        <div class="line">
+                            <div></div>
+                        </div>
+                        <div class="line">
+                            <div></div>
+                        </div>
+                        <div class="line">
+                            <div></div>
+                        </div>
+                    </div>
+
+                    <span class="rlx-colled">选单</span>
+                </a>
+                <!--导航腕表-->
+                <ul class="rlx-shorts">
+                    <li class="rlx-listitem ">
+                        <a class="rlx-listanchor" href="/watches.html">腕表</a>
+                    </li>
+                    <li class="rlx-listitem ">
+                        <a class="rlx-listanchor" href="劳力士世界.html">劳力士世界</a>
+                    </li>
+                    <li class="rlx-listitem ">
+                        <a class="rlx-listanchor" href="/rolex-dealers/dealer-locator.html">零售商地址</a>
+                    </li>
+                </ul>
+                <!--logo-->
+                <a href="主页.html" class="rlx-logoWrapper">
+                    <img src="images/rolex-logo.svg" alt="劳力士" class="rlx-logo">
+                </a>
+                <!--右侧搜索愿望清单-->
+                <ul class="rlx-list">
+                    <li class="rlx-item">
+                        <a href="/search.html" class="rlx-search">
+                            <div class="rlx-icon">
+                                <svg width="18" height="18" viewBox="0 0 1024 1024" class="rlx-svg svg1">
+                                    <path d="m960 820.6-276.9-209.5c25.3-46.3 39.7-99.4 39.7-155.8 0-180.5-147.8-327.4-329.4-327.4s-329.4 146.9-329.4 327.5c0 180.5 147.8 327.3 329.4 327.3 83.3 0 159.3-31.1 217.3-82l279.3 211.3zm-566.6-152.7c-117.9 0-213.9-95.3-213.9-212.5s95.9-212.5 213.9-212.5 213.9 95.3 213.9 212.5c0 117.1-95.9 212.5-213.9 212.5z" class="rlx-icon__path"></path>
+                                </svg>
+                            </div>
+                            <span class="rlx-colled colled1">搜索</span>
+                        </a>
+                    </li>
+                    <li class="rlx-item">
+                        <a href="/wishlist.html" class="rlx-wishlist">
+                            <div class="rlx-icon">
+                                <svg width="18" height="18" viewBox="0 0 1024 1024" class="rlx-svg svg2">
+                                    <path d="m772.6 128c-79.3 0-162.2 29.2-260 91.7-80.8-58.4-175.4-91.7-261.2-91.7-137.4 0-219.4 82.8-219.4 221.4 0 206.4 451.8 526.7 471 540.3l9 6.3 9-6.3c19.2-13.6 471-333.8 471-540.3 0-138.6-82-221.4-219.4-221.4z" class="rlx-icon__path"></path>
+                                </svg>
+                            </div>
+                            <span class="rlx-colled colled2">愿望清单</span>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="juzhong">
+    <video src="video/视频1.mp4" id="videoap" class="video" poster="images/封面1.jpg" ></video>
+    <div class="blackhou video-playernot">
+        <img src="images/按钮-1.png" alt="">
+    </div>
+</div>
+<div id="dashi">
+    <div id="zhong">
+        <div id="zi1">
+              <h1 class="h1">为电影艺术大师喝彩</h1>
+        </div>
+        <div id="zi11">
+            <p class="p1">电影艺术的历史，由结合难忘艺术元素与优秀技术的作品所奠定。劳力士有幸支持奥斯卡金像奖导演马丁・斯科塞斯 <br>
+            （Martin Scorsese）、詹姆斯・卡梅隆（James Cameron）、凯瑟琳・毕格罗（Kathryn Bigelow）及亚历桑德罗・冈 <br>
+             萨雷斯・伊纳利图（Alejandro G. Iñárritu），协助他们不断拓展电影制作艺术的界限。</p>
+             <p class="p1">劳力士一直积极地与杰出艺术家和机构保持紧密合作，其中包括那些勇于突破艺术疆界，直面挑战，成就非凡的人物。劳 <br>
+             力士支持美国电影艺术与科学学院，以及其为表彰杰出成就与保护电影历史所付出的贡献，并对参与推进此事业深感自 <br>
+             豪。</p>
+        </div>
+
+    </div>
+</div>
+<div id="heng">
+    <img src="images/长.jpg" alt="" style="width: 1263px; height: 95px">
+</div>
+<div class="juzhong2" id="botton">
+    <video src="video/视频2.mp4" id="videobp" class="video" poster="images/封面2.jpg" ></video>
+    <div class="blackhoux video-playernot">
+        <img src="images/按钮-1.png" alt="">
+    </div>
+</div>
+<div class="ren">
+    <div id="ziz1">
+    <h2 class="zi2">马丁</h2>
+    <h1 class="zi22">斯科塞斯</h1>
+        <a href="" class="a1">探索更多</a>
+    </div>
+</div>
+<div id="ren1">
+    <div id="ziz2">
+    <h2 class="zi2">凯瑟琳</h2>
+    <h1 class="zi22">毕格罗</h1>
+        <a href="" class="a1">探索更多</a>
+    </div>
+</div>
+<div id="zhong1">
+    <h2 id="zi3">经典腕表</h2>
+    <h3 class="zi33">日志型 41</h3>
+    <h3  id="xian">_____</h3>
+    <img src="images/图.jpg" alt="" id="img1">
+    <p id="p1">不论是永恒的美学元素还是卓越的功能，劳力士日志型都是经典腕表的典范。</p>
+    <a href="" id="a1">探索更多</a>
+</div>
+<div id="ren2">
+    <div id="ziz3">
+        <h2 class="zi2">亚历桑德罗</h2>
+        <h1 class="zi22">冈萨雷斯・伊纳利图</h1>
+        <a href="" class="a1">探索更多</a>
+    </div>
+</div>
+<div id="ren3">
+    <div id="ziz4">
+        <h2 class="zi2">詹姆斯</h2>
+        <h1 class="zi22">卡梅隆</h1>
+        <a href="" class="a1">探索更多</a>
+    </div>
+</div>
+<div id="dianY">
+    <h2 id="h2">劳力士与美国电影艺术与科学学院</h2>
+    <h1 id="h1">2018年绿坊休息室</h1>
+    <p id="p2">绿坊休息室（Greenroom）是此电影艺术界盛会的后台相聚处。劳力士连续三年于奥斯卡®金像奖打造 <br>
+        品牌空间。2018年绿坊休息室的设计与以往大相径庭，着重呈现劳力士品牌及其瑞士传统。正如电影创造 <br>
+        故事世界，劳力士同样通过演员休息室，带领宾客走进瑞士高山的现代木屋。奥斯卡®金像奖自2002年 <br>
+        在杜比剧院举办，宾客在绿坊休息室会感受到劳力士的品牌氛围，与室外的洛杉矶都市气息截然不同。</p>
+</div>
+<div id="imgZ">
+    <img src="images/家.jpg" alt="">
+</div>
+<div id="hua">
+<h1 id="hh1">劳力士创艺推荐资助计划</h1>
+    <a href="" id="aas">探索更多</a>
+</div>
+<div id="hei">
+    <div id="div5">
+        <div id="aa1">
+            <p class="p3">劳力士腕表</p>
+            <ul class="ul1">
+                <li class="li1">
+                    <a class="a2 " href="#">
+                        劳力士腕表</a>
+                </li>
+
+                <li class="li1">
+                    <a class="a2 " href="#">
+                        设置您的劳力士腕表</a>
+                </li>
+
+                <li class="li1">
+                    <a class="a2" href="#">
+                        寻找您的劳力士腕表</a>
+                </li>
+
+                <li class="li1">
+                    <a class="a2 " href="#">
+                        2018年新款腕表</a>
+                </li>
+
+                <li class="li1">
+                    <a class="a2" href="#">
+                        男装腕表</a>
+                </li>
+
+                <li class="li1">
+                    <a class="a2" href="#">
+                        女装腕表</a>
+                </li>
+
+                <li class="li1">
+                    <a class="a2" href="#">
+                        关于劳力士腕表</a>
+                </li>
+
+                <li class="li1">
+                    <a class="a2" href="#">
+                        一只劳力士，一个故事</a>
+                </li>
+            </ul>
+        </div>
+        <div id="aa2">
+            <p class="p3">劳力士世界</p>
+            <a href="#" class="a3">运动.艺术及探险</a>
+        </div>
+        <div id="aa3">
+            <p class="p3">服务</p>
+            <ul class="ul2">
+                <li class="li2">
+                    <a class="a4 " href="#">
+                        零售商地址</a>
+                </li>
+
+                <li class="li2">
+                    <a class="a4" href="#">
+                        佩戴劳力士腕表</a>
+                </li>
+
+                <li class="li2">
+                    <a class="a4 " href="#">
+                        愿望清单</a>
+                </li>
+
+                <li class="li2">
+                    <a class="a4 " href="#">
+                        常见问题</a>
+                </li>
+            </ul>
+        </div>
+        <div id="aa4">
+            <p class="p3">腕表系列</p>
+            <ul class="ul3">
+                <li class="li3">
+                    <a class="a5 " href="#">
+                        空中霸王型</a>
+                </li>
+
+                <li class="li3">
+                    <a class="a5 " href="#">
+                        宇宙计型迪通拿</a>
+                </li>
+
+                <li class="li3">
+                    <a class="a5 " href="#">
+                        日志型</a>
+                </li>
+
+                <li class="li3">
+                    <a class="a5 " href="#">
+                        女装日志型</a>
+                </li>
+
+                <li class="li3">
+                    <a class="a5 " href="#">
+                        星期日历型</a>
+                </li>
+
+                <li class="li3">
+                    <a class="a5 " href="#">
+                        探险家型</a>
+                </li>
+
+                <li class="li3">
+                    <a class="a5 " href="#">
+                        格林尼治型 II</a>
+                </li>
+
+                <li class="li3">
+                    <a class="a5 " href="#">
+                        Milgauss</a>
+                </li>
+
+                <li class="li3">
+                    <a class="a5 " href="#">
+                        蚝式恒动型</a>
+                </li>
+
+                <li class="li3">
+                    <a class="a5 " href="#">
+                        Pearlmaster</a>
+                </li>
+
+                <li class="li3">
+                    <a class="a5 " href="#">
+                        海使型</a>
+                </li>
+
+                <li class="li3">
+                    <a class="a5 " href="#">
+                        Sky-Dweller</a>
+                </li>
+
+                <li class="li3">
+                    <a class="a5 " href="#">
+                        潜航者型</a>
+                </li>
+
+                <li class="li3">
+                    <a class="a5 " href="#">
+                        游艇名仕型</a>
+                </li>
+                <li class="li3">
+                    <a class="a5 " href="#">
+                        切利尼</a>
+                </li>
+            </ul>
+        </div>
+        <div id="aa5">
+            <p class="p3">法律声明</p>
+            <ul class="ul4">
+                <li class="li4">
+                    <a class="a6 " href="#">
+                        使用条款</a>
+                </li>
+
+                <li class="li4">
+                    <a class="a6 " href="#">
+                        隐私声明</a>
+                </li>
+
+                <li class="li4">
+                    <a class="a6 " href="#">
+                        Cookies</a>
+                </li>
+
+                <li class="li4">
+                    <a class="a6 " href="/">
+                    </a><a style="" id="aa">沪ICP备18006778号-2</a>
+                </li>
+            </ul>
+        </div>
+        <div id="aa6">
+            <p class="p3">媒体</p>
+            <ul class="ul5">
+                <li class="li5">
+                    <a class="a7 " href="#">
+                        媒体中心</a>
+                </li>
+
+                <li class="li5">
+                    <a class="a7 " href="#">
+                        桌面背景</a>
+                </li>
+                <li class="li5">
+                    <a class="a7 " href="#">
+                        电子腕表手册</a>
+                </li>
+
+                <li class="li5">
+                    <a class="a7 " href="/">
+                    </a><a style="" class="a7">用户指南</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+</div>
+</body>
+</html>

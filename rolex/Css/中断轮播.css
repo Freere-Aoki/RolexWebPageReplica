@@ -1,0 +1,236 @@
+.web-roller-jingdian{
+    position: relative;
+    top: 200px;
+}
+.section-jingdian{
+    height: 425px;
+}
+.lunbo-window{
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.center-lunbo{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    font-size: 0;
+    list-style: none;
+    white-space: nowrap;
+}
+
+.center-lunbo{
+    transition: all 0.9s ease-in-out;
+}
+.activenower1{
+    transform: translate(0%,0);
+}
+.activenower2{
+    transform: translate(-100%,0);
+}
+.activenower3{
+    transform: translate(-200%,0);
+}
+.activenower4{
+    transform: translate(-300%,0);
+}
+.activenower5{
+    transform: translate(-400%,0);
+}
+.activenower6{
+    transform: translate(-500%,0);
+}
+.activenower7{
+    transform: translate(-600%,0);
+}
+.activenower8{
+    transform: translate(-700%,0);
+}
+
+.lunbo .rlx-carousel{
+    display: inline-block;
+    margin: 10px;
+}
+.lunbo-car-link{
+    display: block;
+}
+.center-lunbo,.rlx-carousel,.lunbo-justone,.lunbo-car-link,.lunbo-video,.lunbo-overlasy{
+    height: 425px;
+    width: 600px;
+}
+.section-sp .lunbo-car-link .lunbo-video,.section-sp .lunbo-car-link,.section-sp{
+    height: 425px;
+    width: 1040px;
+    transform: translate(-14%,0);
+}
+.lunbo img{
+    height: 100%;
+    width: 100%;
+}
+.lunbo-overlasy{
+    position: absolute;
+    top: 0;
+}
+.lunbo-video{
+    background-color: #fff;
+}
+.lunbo video{
+    object-fit:cover;
+}
+.lunbo-wrappesr{
+    top:2.5%;
+    position: absolute;
+    transform: translateZ(0);
+    width: 80%;
+    height: 75%;
+    left: 10%;
+}
+.lunbo-wrappesr-sp{
+    top:2.5%;
+    position: absolute;
+    transform: translateZ(0);
+    width: 80%;
+    height: 75%;
+    left: 10%;
+}
+.lunbo-wrappesr-sp::before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    width: 0;
+    overflow: hidden;
+}
+.lunbo-wrappesr::before {
+    content: '';
+    display: inline-block;
+    height: 50%;
+    width: 0;
+    overflow: hidden;
+}
+.lunbo-text{
+    display: inline-block;
+    color: white;
+}
+.lunbo-header{
+    position: relative;
+    display: table;
+    width: 100%;
+    text-indent: -2px;
+    padding: 0 0 20px;
+}
+.lunbo-alpha{
+    color: green;
+    background-color: white;
+    border-color: white;
+    display: inline-block;
+    letter-spacing: .05em;
+    font-size: 15px;border-radius: 40px;
+    padding: 13px 39px;
+}
+.lunbo span{
+    line-height: 1.3;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.lunbo-nav{
+    position: relative;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.lunbo-nav-left{
+    position: relative;
+    z-index: 101;
+    top: -100%;
+    left: 0;
+    display: inline-block;
+    margin: 0;
+    width: 10%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: rgba(255,255,255,0);
+}
+.lunbo-nav-left a{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+
+    transform: translate(-200px,0);
+    transition: all 0.5s ease-in-out;
+}
+.lunbo-nav-right{
+    position: relative;
+    z-index: 101;
+    top: -100%;
+    right: -80%;
+    display: inline-block;
+    margin: 0;
+    width: 10%;
+    height: 100%;
+    overflow: hidden;
+    cursor: pointer;
+    background-color: rgba(255,255,255,0);
+}
+.lunbo-nav-right a{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+
+    transform: translate(200px,0);
+    transition: all 0.5s ease-in-out;
+}
+.lunbo-nav-back{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: -100%;
+}
+.lunbo-nav-back:hover~.lunbo-nav-left a{
+    transform: translate(0,0);
+}
+.lunbo-nav-left:hover a{
+    transform: translate(0,0) scale(1.1);
+}
+.lunbo-nav-back:hover~.lunbo-nav-right a{
+    transform: translate(0,0);
+}
+.lunbo-nav-right:hover a{
+    transform: translate(0,0) scale(1.1);
+}
+
+.lunbo a{
+    text-decoration: none;
+    color: black;
+}
+
+.lunbo-wrappesr{
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .05em;
+    font-size: 20px;
+    line-height: 22px;
+    font-family: "Microsoft YaHei","Heiti SC Light","ST Heiti SC Light","STHeiti SC Light",STHeitiSC-Light,"STHeiti Light",STXihei,"Helvetica",sans-serif;
+    font-style: normal !important;
+    font-weight: lighter;
+}
+.lunbo-1-1-h2-sp{
+    height: 100%;
+}
